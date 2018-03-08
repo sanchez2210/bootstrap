@@ -84,3 +84,23 @@
 
   @return mix($color-base, $color, $level * $theme-color-interval);
 }
+
+@function font-size($i, $scale: $type-scale) {
+  $type-scale-value: map-get($scale, $i);
+
+  @return $font-size-base * $type-scale-value;
+}
+
+@function line-height($i: 6, $scale: $type-scale) {
+  $computed-line-height-base: $font-size-base * $line-height-base;
+
+  $font-size: font-size($i, $scale);
+
+  $multiplier: 1;
+
+  @while $computed-line-height-base * $multiplier <= $font-size {
+    $multiplier: $multiplier + .5;
+  }
+
+  @return $computed-line-height-base * $multiplier;
+}
