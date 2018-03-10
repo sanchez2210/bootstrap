@@ -50,3 +50,18 @@
 .text-hide {
   @include text-hide();
 }
+
+// Typography utilities
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    @each $key, $_value in $type-scale {
+      .fs#{$infix}-#{$key} {
+        font-size: font-size($key) !important;
+        line-height: line-height($key) !important;
+      }
+    }
+  }
+}

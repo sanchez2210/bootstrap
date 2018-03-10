@@ -88,19 +88,25 @@
 @function font-size($i, $scale: $type-scale) {
   $type-scale-value: map-get($scale, $i);
 
-  @return $font-size-base * $type-scale-value;
+  @return font-size-math($type-scale-value);
 }
 
-@function line-height($i: 6, $scale: $type-scale) {
-  $computed-line-height-base: $font-size-base * $line-height-base;
+@function font-size-math($scale-value) {
+  @return $font-size-base * $scale-value;
+}
 
-  $font-size: font-size($i, $scale);
+@function line-height($i, $scale: $type-scale) {
+  $type-scale-value: map-get($scale, $i);
 
+  @return line-height-math($type-scale-value);
+}
+
+@function line-height-math($scale-value) {
   $multiplier: 1;
 
-  @while $computed-line-height-base * $multiplier <= $font-size {
+  @while $line-height-base * $multiplier * .8 <= $scale-value {
     $multiplier: $multiplier + .5;
   }
 
-  @return $computed-line-height-base * $multiplier;
+  @return $line-height-base * $multiplier / $scale-value;
 }

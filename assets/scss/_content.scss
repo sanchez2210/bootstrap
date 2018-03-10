@@ -95,12 +95,12 @@
 }
 
 .bd-title {
-  margin-top: 1rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0;
   font-weight: 300;
 
   @include media-breakpoint-up(sm) {
-    font-size: 3rem;
+    font-size: font-size-math(3);
+    line-height: line-height-math(3);
   }
 }
 
@@ -110,7 +110,6 @@
 
   @include media-breakpoint-up(sm) {
     max-width: 80%;
-    margin-bottom: 1rem;
     font-size: 1.5rem;
   }
 }

@@ -21,42 +21,42 @@
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-        <h2>Checkout form</h2>
+        <h3>Checkout form</h3>
         <p class="lead">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
       </div>
 
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
-          <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <h4 class="d-flex justify-content-between align-items-center mb-2">
             <span class="text-muted">Your cart</span>
             <span class="badge badge-secondary badge-pill">3</span>
           </h4>
-          <ul class="list-group mb-3">
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <ul class="list-group mb-2">
+            <li class="list-group-item d-flex justify-content-between">
               <div>
                 <h6 class="my-0">Product name</h6>
-                <small class="text-muted">Brief description</small>
+                <p class="fs-7 mb-0 text-muted"> Brief description </p>
               </div>
               <span class="text-muted">$12</span>
             </li>
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <li class="list-group-item d-flex justify-content-between">
               <div>
                 <h6 class="my-0">Second product</h6>
-                <small class="text-muted">Brief description</small>
+                <p class="fs-7 mb-0 text-muted"> Brief description </p>
               </div>
               <span class="text-muted">$8</span>
             </li>
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <li class="list-group-item d-flex justify-content-between">
               <div>
                 <h6 class="my-0">Third item</h6>
-                <small class="text-muted">Brief description</small>
+                <p class="fs-7 mb-0 text-muted"> Brief description </p>
               </div>
               <span class="text-muted">$5</span>
             </li>
             <li class="list-group-item d-flex justify-content-between bg-light">
               <div class="text-success">
                 <h6 class="my-0">Promo code</h6>
-                <small>EXAMPLECODE</small>
+                <p class="fs-7 mb-0"> EXAMPLECODE </p>
               </div>
               <span class="text-success">-$5</span>
             </li>
@@ -76,17 +76,17 @@
           </form>
         </div>
         <div class="col-md-8 order-md-1">
-          <h4 class="mb-3">Billing address</h4>
+          <h4 class="mb-2">Billing address</h4>
           <form class="needs-validation" novalidate>
             <div class="row">
-              <div class="col-md-6 mb-3">
+              <div class="col-md-6 form-group">
                 <label for="firstName">First name</label>
                 <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
                 <div class="invalid-feedback">
                   Valid first name is required.
                 </div>
               </div>
-              <div class="col-md-6 mb-3">
+              <div class="col-md-6 form-group">
                 <label for="lastName">Last name</label>
                 <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
                 <div class="invalid-feedback">
@@ -95,7 +95,7 @@
               </div>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
               <label for="username">Username</label>
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -108,7 +108,7 @@
               </div>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
               <label for="email">Email <span class="text-muted">(Optional)</span></label>
               <input type="email" class="form-control" id="email" placeholder="you@example.com">
               <div class="invalid-feedback">
@@ -116,7 +116,7 @@
               </div>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
               <label for="address">Address</label>
               <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
               <div class="invalid-feedback">
@@ -124,13 +124,13 @@
               </div>
             </div>
 
-            <div class="mb-3">
+            <div class="form-group">
               <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
               <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
             </div>
 
             <div class="row">
-              <div class="col-md-5 mb-3">
+              <div class="col-md-5 form-group">
                 <label for="country">Country</label>
                 <select class="custom-select d-block w-100" id="country" required>
                   <option value="">Choose...</option>
@@ -140,7 +140,7 @@
                   Please select a valid country.
                 </div>
               </div>
-              <div class="col-md-4 mb-3">
+              <div class="col-md-4 form-group">
                 <label for="state">State</label>
                 <select class="custom-select d-block w-100" id="state" required>
                   <option value="">Choose...</option>
@@ -150,7 +150,7 @@
                   Please provide a valid state.
                 </div>
               </div>
-              <div class="col-md-3 mb-3">
+              <div class="col-md-3 form-group">
                 <label for="zip">Zip</label>
                 <input type="text" class="form-control" id="zip" placeholder="" required>
                 <div class="invalid-feedback">
@@ -169,9 +169,9 @@
             </div>
             <hr class="mb-4">
 
-            <h4 class="mb-3">Payment</h4>
+            <h4 class="mb-2">Payment</h4>
 
-            <div class="d-block my-3">
+            <div class="d-block form-group">
               <div class="custom-control custom-radio">
                 <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
                 <label class="custom-control-label" for="credit">Credit card</label>
@@ -186,15 +186,15 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 mb-3">
+              <div class="col-md-6 form-group">
                 <label for="cc-name">Name on card</label>
                 <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                <small class="text-muted">Full name as displayed on card</small>
+                <small class="fs-7 text-muted">Full name as displayed on card</small>
                 <div class="invalid-feedback">
                   Name on card is required
                 </div>
               </div>
-              <div class="col-md-6 mb-3">
+              <div class="col-md-6 form-group">
                 <label for="cc-number">Credit card number</label>
                 <input type="text" class="form-control" id="cc-number" placeholder="" required>
                 <div class="invalid-feedback">
@@ -203,14 +203,14 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-3 mb-3">
+              <div class="col-md-3 form-group">
                 <label for="cc-expiration">Expiration</label>
                 <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
                 <div class="invalid-feedback">
                   Expiration date required
                 </div>
               </div>
-              <div class="col-md-3 mb-3">
+              <div class="col-md-3 form-group">
                 <label for="cc-cvv">CVV</label>
                 <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
                 <div class="invalid-feedback">
