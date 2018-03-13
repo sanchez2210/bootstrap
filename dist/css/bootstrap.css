@@ -108,7 +108,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 ol ol,
@@ -1980,7 +1980,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .form-text {
@@ -4859,7 +4859,7 @@ tbody.collapse.show {
 .alert {
   position: relative;
   padding: 0.75rem 1.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   border: 0.0625rem solid transparent;
   border-radius: 0.25rem;
 }

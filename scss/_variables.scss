@@ -476,7 +476,7 @@ $form-check-input-margin-x:             .25rem !default;
 $form-check-inline-margin-x:            .75rem !default;
 $form-check-inline-input-margin-x:      .3125rem !default;
 
-$form-group-margin-bottom:              1rem !default;
+$form-group-margin-bottom:              $spacer !default;
 
 $input-group-addon-color:               $input-color !default;
 $input-group-addon-bg:                  $gray-200 !default;
@@ -827,7 +827,7 @@ $modal-transition:                  transform .3s ease-out !default;
 
 $alert-padding-y:                   .75rem !default;
 $alert-padding-x:                   1.25rem !default;
-$alert-margin-bottom:               1rem !default;
+$alert-margin-bottom:               $spacer !default;
 $alert-border-radius:               $border-radius !default;
 $alert-link-font-weight:            $font-weight-bold !default;
 $alert-border-width:                $border-width !default;
