@@ -88,25 +88,25 @@
 @function font-size($i, $scale: $type-scale) {
   $type-scale-value: map-get($scale, $i);
 
-  @return font-size-math($type-scale-value);
+  @return _font-size-math($type-scale-value);
 }
 
-@function font-size-math($scale-value) {
+@function _font-size-math($scale-value) {
   @return $font-size-base * $scale-value;
 }
 
-@function line-height($i, $scale: $type-scale) {
-  $type-scale-value: map-get($scale, $i);
+@function line-height($i, $scale: $line-height-scale) {
+  $line-scale-value: map-get($scale, $i);
 
-  @return line-height-math($type-scale-value);
+  @return $line-scale-value;
 }
 
-@function line-height-math($scale-value) {
-  $multiplier: 1;
+@function normalized-line-height($i, $scale: $type-scale) {
+  $type-scale-value: map-get($scale, $i);
 
-  @while $line-height-base * $multiplier * .8 <= $scale-value {
-    $multiplier: $multiplier + .5;
-  }
+  @return _line-height-math($type-scale-value);
+}
 
-  @return $line-height-base * $multiplier / $scale-value;
+@function _line-height-math($scale-value) {
+  @return $line-height-base / $scale-value;
 }
