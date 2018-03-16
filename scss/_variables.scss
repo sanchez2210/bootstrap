@@ -377,6 +377,8 @@ $table-caption-color:         $text-muted !default;
 //
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
+$input-btn-border-width:      $border-width !default;
+
 $input-btn-padding-y:         $spacer / 4 - $border-width !default;
 $input-btn-padding-x:         $spacer / 2 - $border-width !default;
 $input-btn-line-height:       $line-height-base !default;
@@ -392,8 +394,6 @@ $input-btn-line-height-sm:    $line-height-sm !default;
 $input-btn-padding-y-lg:      .5rem !default;
 $input-btn-padding-x-lg:      1rem !default;
 $input-btn-line-height-lg:    $line-height-lg !default;
-
-$input-btn-border-width:      $border-width !default;
 
 
 // Buttons
