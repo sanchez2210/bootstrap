@@ -63,7 +63,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.5rem;
   color: #212529;
   text-align: left;
   background-color: #fff;
@@ -368,62 +368,62 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 3.052rem;
-  line-height: 1.228702;
+  line-height: 3.75rem;
 }
 
 h2, .h2 {
   font-size: 2.441rem;
-  line-height: 1.229005;
+  line-height: 3rem;
 }
 
 h3, .h3 {
   font-size: 1.953rem;
-  line-height: 1.536098;
+  line-height: 3rem;
 }
 
 h4, .h4 {
   font-size: 1.563rem;
-  line-height: 1.439539;
+  line-height: 2.25rem;
 }
 
 h5, .h5 {
   font-size: 1.25rem;
-  line-height: 1.8;
+  line-height: 2.25rem;
 }
 
 h6, .h6 {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.5rem;
 }
 
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
-  line-height: 1.8;
+  line-height: 2.25rem;
 }
 
 .display-1 {
   font-size: 7.451rem;
   font-weight: 300;
-  line-height: 7.451;
+  line-height: 6rem;
 }
 
 .display-2 {
   font-size: 5.96rem;
   font-weight: 300;
-  line-height: 5.96;
+  line-height: 4.5rem;
 }
 
 .display-3 {
   font-size: 4.768rem;
   font-weight: 300;
-  line-height: 4.768;
+  line-height: 4.5rem;
 }
 
 .display-4 {
   font-size: 3.815rem;
   font-weight: 300;
-  line-height: 3.815;
+  line-height: 3.75rem;
 }
 
 hr {
@@ -1826,7 +1826,7 @@ pre code {
   width: 100%;
   padding: 0.3125rem 0.6875rem;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.5rem;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
@@ -1898,21 +1898,21 @@ select.form-control:focus::-ms-value {
   padding-bottom: calc(0.3125rem + 0.0625rem);
   margin-bottom: 0;
   font-size: inherit;
-  line-height: 1.5;
+  line-height: 1.5rem;
 }
 
 .col-form-label-lg {
   padding-top: calc(0.5rem + 0.0625rem);
   padding-bottom: calc(0.5rem + 0.0625rem);
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 2.25rem;
 }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 0.0625rem);
   padding-bottom: calc(0.25rem + 0.0625rem);
-  font-size: 0.875rem;
-  line-height: 1.5;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
 }
 
 .form-control-plaintext {
@@ -1921,7 +1921,7 @@ select.form-control:focus::-ms-value {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-bottom: 0;
-  line-height: 1.5;
+  line-height: 1.5rem;
   color: #212529;
   background-color: transparent;
   border: solid transparent;
@@ -1947,8 +1947,8 @@ select.form-control:focus::-ms-value {
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
   border-radius: 0.2rem;
 }
 
@@ -1957,7 +1957,7 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.for
 .input-group-sm > .input-group-append > select.input-group-text:not([size]):not([multiple]),
 .input-group-sm > .input-group-prepend > select.btn:not([size]):not([multiple]),
 .input-group-sm > .input-group-append > select.btn:not([size]):not([multiple]) {
-  height: calc(1.8125rem + 0.125rem);
+  height: calc(2rem + 0.125rem);
 }
 
 .form-control-lg, .input-group-lg > .form-control,
@@ -1967,7 +1967,7 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.for
 .input-group-lg > .input-group-append > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 2.25rem;
   border-radius: 0.3rem;
 }
 
@@ -1976,7 +1976,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .input-group-lg > .input-group-append > select.input-group-text:not([size]):not([multiple]),
 .input-group-lg > .input-group-prepend > select.btn:not([size]):not([multiple]),
 .input-group-lg > .input-group-append > select.btn:not([size]):not([multiple]) {
-  height: calc(2.875rem + 0.125rem);
+  height: calc(3.25rem + 0.125rem);
 }
 
 .form-group {
@@ -2318,7 +2318,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   border: 0.0625rem solid transparent;
   padding: 0.3125rem 0.6875rem;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.5rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2919,14 +2919,14 @@ fieldset:disabled a.btn {
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 2.25rem;
   border-radius: 0.3rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
   border-radius: 0.2rem;
 }
 
@@ -3149,7 +3149,7 @@ tbody.collapse.show {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: #6c757d;
   white-space: nowrap;
 }
@@ -3404,7 +3404,7 @@ tbody.collapse.show {
   margin-bottom: 0;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.5rem;
   color: #495057;
   text-align: center;
   white-space: nowrap;
@@ -3561,7 +3561,7 @@ tbody.collapse.show {
   width: 100%;
   height: calc(2.125rem + 0.125rem);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
-  line-height: 1.5;
+  line-height: 1.5rem;
   color: #495057;
   vertical-align: middle;
   background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
@@ -3600,14 +3600,14 @@ tbody.collapse.show {
 }
 
 .custom-select-sm {
-  height: calc(1.8125rem + 0.125rem);
+  height: calc(2rem + 0.125rem);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 75%;
 }
 
 .custom-select-lg {
-  height: calc(2.875rem + 0.125rem);
+  height: calc(3.25rem + 0.125rem);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 125%;
@@ -3651,7 +3651,7 @@ tbody.collapse.show {
   z-index: 1;
   height: calc(2.125rem + 0.125rem);
   padding: 0.3125rem 0.6875rem;
-  line-height: 1.5;
+  line-height: 1.5rem;
   color: #495057;
   background-color: #fff;
   border: 0.0625rem solid #ced4da;
@@ -3667,7 +3667,7 @@ tbody.collapse.show {
   display: block;
   height: calc(calc(2.125rem + 0.125rem) - 0.0625rem * 2);
   padding: 0.3125rem 0.6875rem;
-  line-height: 1.5;
+  line-height: 1.5rem;
   color: #495057;
   content: "Browse";
   background-color: #e9ecef;
@@ -3913,7 +3913,7 @@ tbody.collapse.show {
   padding-bottom: 0rem;
   margin-right: 1.5rem;
   font-size: 1.25rem;
-  line-height: 1.8;
+  line-height: 2.25rem;
   white-space: nowrap;
 }
 
@@ -4693,7 +4693,7 @@ tbody.collapse.show {
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 2.25rem;
 }
 
 .pagination-lg .page-item:first-child .page-link {
@@ -4708,8 +4708,8 @@ tbody.collapse.show {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.5;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
 }
 
 .pagination-sm .page-item:first-child .page-link {
@@ -5458,7 +5458,7 @@ button.close {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.5rem;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -5469,7 +5469,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   word-wrap: break-word;
   opacity: 0;
 }
@@ -5571,7 +5571,7 @@ button.close {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.5rem;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -5582,7 +5582,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -9745,181 +9745,181 @@ a.text-dark:hover, a.text-dark:focus {
 
 .fs-1 {
   font-size: 3.052rem !important;
-  line-height: 1.228702 !important;
+  line-height: 3.75rem !important;
 }
 
 .fs-2 {
   font-size: 2.441rem !important;
-  line-height: 1.229005 !important;
+  line-height: 3rem !important;
 }
 
 .fs-3 {
   font-size: 1.953rem !important;
-  line-height: 1.536098 !important;
+  line-height: 3rem !important;
 }
 
 .fs-4 {
   font-size: 1.563rem !important;
-  line-height: 1.439539 !important;
+  line-height: 2.25rem !important;
 }
 
 .fs-5 {
   font-size: 1.25rem !important;
-  line-height: 1.8 !important;
+  line-height: 2.25rem !important;
 }
 
 .fs-6 {
   font-size: 1rem !important;
-  line-height: 1.5 !important;
+  line-height: 1.5rem !important;
 }
 
 .fs-7 {
   font-size: 0.8rem !important;
-  line-height: 1.875 !important;
+  line-height: 1.5rem !important;
 }
 
 .fs-8 {
   font-size: 0.64rem !important;
-  line-height: 1.171875 !important;
+  line-height: 0.75rem !important;
 }
 
 @media (min-width: 576px) {
   .fs-sm-1 {
     font-size: 3.052rem !important;
-    line-height: 1.228702 !important;
+    line-height: 3.75rem !important;
   }
   .fs-sm-2 {
     font-size: 2.441rem !important;
-    line-height: 1.229005 !important;
+    line-height: 3rem !important;
   }
   .fs-sm-3 {
     font-size: 1.953rem !important;
-    line-height: 1.536098 !important;
+    line-height: 3rem !important;
   }
   .fs-sm-4 {
     font-size: 1.563rem !important;
-    line-height: 1.439539 !important;
+    line-height: 2.25rem !important;
   }
   .fs-sm-5 {
     font-size: 1.25rem !important;
-    line-height: 1.8 !important;
+    line-height: 2.25rem !important;
   }
   .fs-sm-6 {
     font-size: 1rem !important;
-    line-height: 1.5 !important;
+    line-height: 1.5rem !important;
   }
   .fs-sm-7 {
     font-size: 0.8rem !important;
-    line-height: 1.875 !important;
+    line-height: 1.5rem !important;
   }
   .fs-sm-8 {
     font-size: 0.64rem !important;
-    line-height: 1.171875 !important;
+    line-height: 0.75rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .fs-md-1 {
     font-size: 3.052rem !important;
-    line-height: 1.228702 !important;
+    line-height: 3.75rem !important;
   }
   .fs-md-2 {
     font-size: 2.441rem !important;
-    line-height: 1.229005 !important;
+    line-height: 3rem !important;
   }
   .fs-md-3 {
     font-size: 1.953rem !important;
-    line-height: 1.536098 !important;
+    line-height: 3rem !important;
   }
   .fs-md-4 {
     font-size: 1.563rem !important;
-    line-height: 1.439539 !important;
+    line-height: 2.25rem !important;
   }
   .fs-md-5 {
     font-size: 1.25rem !important;
-    line-height: 1.8 !important;
+    line-height: 2.25rem !important;
   }
   .fs-md-6 {
     font-size: 1rem !important;
-    line-height: 1.5 !important;
+    line-height: 1.5rem !important;
   }
   .fs-md-7 {
     font-size: 0.8rem !important;
-    line-height: 1.875 !important;
+    line-height: 1.5rem !important;
   }
   .fs-md-8 {
     font-size: 0.64rem !important;
-    line-height: 1.171875 !important;
+    line-height: 0.75rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .fs-lg-1 {
     font-size: 3.052rem !important;
-    line-height: 1.228702 !important;
+    line-height: 3.75rem !important;
   }
   .fs-lg-2 {
     font-size: 2.441rem !important;
-    line-height: 1.229005 !important;
+    line-height: 3rem !important;
   }
   .fs-lg-3 {
     font-size: 1.953rem !important;
-    line-height: 1.536098 !important;
+    line-height: 3rem !important;
   }
   .fs-lg-4 {
     font-size: 1.563rem !important;
-    line-height: 1.439539 !important;
+    line-height: 2.25rem !important;
   }
   .fs-lg-5 {
     font-size: 1.25rem !important;
-    line-height: 1.8 !important;
+    line-height: 2.25rem !important;
   }
   .fs-lg-6 {
     font-size: 1rem !important;
-    line-height: 1.5 !important;
+    line-height: 1.5rem !important;
   }
   .fs-lg-7 {
     font-size: 0.8rem !important;
-    line-height: 1.875 !important;
+    line-height: 1.5rem !important;
   }
   .fs-lg-8 {
     font-size: 0.64rem !important;
-    line-height: 1.171875 !important;
+    line-height: 0.75rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .fs-xl-1 {
     font-size: 3.052rem !important;
-    line-height: 1.228702 !important;
+    line-height: 3.75rem !important;
   }
   .fs-xl-2 {
     font-size: 2.441rem !important;
-    line-height: 1.229005 !important;
+    line-height: 3rem !important;
   }
   .fs-xl-3 {
     font-size: 1.953rem !important;
-    line-height: 1.536098 !important;
+    line-height: 3rem !important;
   }
   .fs-xl-4 {
     font-size: 1.563rem !important;
-    line-height: 1.439539 !important;
+    line-height: 2.25rem !important;
   }
   .fs-xl-5 {
     font-size: 1.25rem !important;
-    line-height: 1.8 !important;
+    line-height: 2.25rem !important;
   }
   .fs-xl-6 {
     font-size: 1rem !important;
-    line-height: 1.5 !important;
+    line-height: 1.5rem !important;
   }
   .fs-xl-7 {
     font-size: 0.8rem !important;
-    line-height: 1.875 !important;
+    line-height: 1.5rem !important;
   }
   .fs-xl-8 {
     font-size: 0.64rem !important;
-    line-height: 1.171875 !important;
+    line-height: 0.75rem !important;
   }
 }
 

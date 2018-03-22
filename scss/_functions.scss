@@ -100,13 +100,3 @@
 
   @return $line-scale-value;
 }
-
-@function normalized-line-height($i, $scale: $type-scale) {
-  $type-scale-value: map-get($scale, $i);
-
-  @return _line-height-math($type-scale-value);
-}
-
-@function _line-height-math($scale-value) {
-  @return $line-height-base / $scale-value;
-}
