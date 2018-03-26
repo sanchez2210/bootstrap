@@ -367,28 +367,28 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 3.052rem;
-  line-height: 3.75rem;
+  font-size: 1.802rem;
+  line-height: 3rem;
 }
 
 h2, .h2 {
-  font-size: 2.441rem;
-  line-height: 3rem;
+  font-size: 1.602rem;
+  line-height: 2.25rem;
 }
 
 h3, .h3 {
-  font-size: 1.953rem;
-  line-height: 3rem;
+  font-size: 1.424rem;
+  line-height: 2.25rem;
 }
 
 h4, .h4 {
-  font-size: 1.563rem;
-  line-height: 2.25rem;
+  font-size: 1.266rem;
+  line-height: 1.5rem;
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 h6, .h6 {
@@ -397,33 +397,33 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 300;
-  line-height: 2.25rem;
+  line-height: 1.5rem;
 }
 
 .display-1 {
-  font-size: 7.451rem;
+  font-size: 2.887rem;
   font-weight: 300;
-  line-height: 6rem;
+  line-height: 4.5rem;
 }
 
 .display-2 {
-  font-size: 5.96rem;
+  font-size: 2.566rem;
   font-weight: 300;
-  line-height: 4.5rem;
+  line-height: 3.75rem;
 }
 
 .display-3 {
-  font-size: 4.768rem;
+  font-size: 2.281rem;
   font-weight: 300;
-  line-height: 4.5rem;
+  line-height: 3.75rem;
 }
 
 .display-4 {
-  font-size: 3.815rem;
+  font-size: 2.027rem;
   font-weight: 300;
-  line-height: 3.75rem;
+  line-height: 3rem;
 }
 
 hr {
@@ -1904,14 +1904,14 @@ select.form-control:focus::-ms-value {
 .col-form-label-lg {
   padding-top: calc(0.5rem + 0.0625rem);
   padding-bottom: calc(0.5rem + 0.0625rem);
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 0.0625rem);
   padding-bottom: calc(0.25rem + 0.0625rem);
-  font-size: 0.8rem;
+  font-size: 0.889rem;
   line-height: 1.5rem;
 }
 
@@ -1947,7 +1947,7 @@ select.form-control:focus::-ms-value {
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.889rem;
   line-height: 1.5rem;
   border-radius: 0.2rem;
 }
@@ -1966,8 +1966,8 @@ select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.for
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   border-radius: 0.3rem;
 }
 
@@ -1976,7 +1976,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .input-group-lg > .input-group-append > select.input-group-text:not([size]):not([multiple]),
 .input-group-lg > .input-group-prepend > select.btn:not([size]):not([multiple]),
 .input-group-lg > .input-group-append > select.btn:not([size]):not([multiple]) {
-  height: calc(3.25rem + 0.125rem);
+  height: calc(2.5rem + 0.125rem);
 }
 
 .form-group {
@@ -2918,14 +2918,14 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   border-radius: 0.3rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.889rem;
   line-height: 1.5rem;
   border-radius: 0.2rem;
 }
@@ -3149,7 +3149,7 @@ tbody.collapse.show {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 0.8rem;
+  font-size: 0.889rem;
   color: #6c757d;
   white-space: nowrap;
 }
@@ -3607,7 +3607,7 @@ tbody.collapse.show {
 }
 
 .custom-select-lg {
-  height: calc(3.25rem + 0.125rem);
+  height: calc(2.5rem + 0.125rem);
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   font-size: 125%;
@@ -3909,11 +3909,11 @@ tbody.collapse.show {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
   margin-right: 1.5rem;
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   white-space: nowrap;
 }
 
@@ -3958,7 +3958,7 @@ tbody.collapse.show {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1;
   background-color: transparent;
   border: 0.0625rem solid transparent;
@@ -4692,8 +4692,8 @@ tbody.collapse.show {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 1.25rem;
-  line-height: 2.25rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 .pagination-lg .page-item:first-child .page-link {
@@ -4708,7 +4708,7 @@ tbody.collapse.show {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.889rem;
   line-height: 1.5rem;
 }
 
@@ -5469,7 +5469,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.8rem;
+  font-size: 0.889rem;
   word-wrap: break-word;
   opacity: 0;
 }
@@ -5582,7 +5582,7 @@ button.close {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 0.8rem;
+  font-size: 0.889rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -7249,6 +7249,30 @@ button.bg-dark:focus {
   max-height: 100% !important;
 }
 
+.m-half {
+  margin: 0.375rem !important;
+}
+
+.mt-half,
+.my-half {
+  margin-top: 0.375rem !important;
+}
+
+.mr-half,
+.mx-half {
+  margin-right: 0.375rem !important;
+}
+
+.mb-half,
+.my-half {
+  margin-bottom: 0.375rem !important;
+}
+
+.ml-half,
+.mx-half {
+  margin-left: 0.375rem !important;
+}
+
 .m-0 {
   margin: 0 !important;
 }
@@ -7511,6 +7535,30 @@ button.bg-dark:focus {
 .ml-10,
 .mx-10 {
   margin-left: 7.5rem !important;
+}
+
+.p-half {
+  padding: 0.375rem !important;
+}
+
+.pt-half,
+.py-half {
+  padding-top: 0.375rem !important;
+}
+
+.pr-half,
+.px-half {
+  padding-right: 0.375rem !important;
+}
+
+.pb-half,
+.py-half {
+  padding-bottom: 0.375rem !important;
+}
+
+.pl-half,
+.px-half {
+  padding-left: 0.375rem !important;
 }
 
 .p-0 {
@@ -7802,6 +7850,25 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+  .m-sm-half {
+    margin: 0.375rem !important;
+  }
+  .mt-sm-half,
+  .my-sm-half {
+    margin-top: 0.375rem !important;
+  }
+  .mr-sm-half,
+  .mx-sm-half {
+    margin-right: 0.375rem !important;
+  }
+  .mb-sm-half,
+  .my-sm-half {
+    margin-bottom: 0.375rem !important;
+  }
+  .ml-sm-half,
+  .mx-sm-half {
+    margin-left: 0.375rem !important;
+  }
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -8010,6 +8077,25 @@ button.bg-dark:focus {
   .ml-sm-10,
   .mx-sm-10 {
     margin-left: 7.5rem !important;
+  }
+  .p-sm-half {
+    padding: 0.375rem !important;
+  }
+  .pt-sm-half,
+  .py-sm-half {
+    padding-top: 0.375rem !important;
+  }
+  .pr-sm-half,
+  .px-sm-half {
+    padding-right: 0.375rem !important;
+  }
+  .pb-sm-half,
+  .py-sm-half {
+    padding-bottom: 0.375rem !important;
+  }
+  .pl-sm-half,
+  .px-sm-half {
+    padding-left: 0.375rem !important;
   }
   .p-sm-0 {
     padding: 0 !important;
@@ -8242,6 +8328,25 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
+  .m-md-half {
+    margin: 0.375rem !important;
+  }
+  .mt-md-half,
+  .my-md-half {
+    margin-top: 0.375rem !important;
+  }
+  .mr-md-half,
+  .mx-md-half {
+    margin-right: 0.375rem !important;
+  }
+  .mb-md-half,
+  .my-md-half {
+    margin-bottom: 0.375rem !important;
+  }
+  .ml-md-half,
+  .mx-md-half {
+    margin-left: 0.375rem !important;
+  }
   .m-md-0 {
     margin: 0 !important;
   }
@@ -8450,6 +8555,25 @@ button.bg-dark:focus {
   .ml-md-10,
   .mx-md-10 {
     margin-left: 7.5rem !important;
+  }
+  .p-md-half {
+    padding: 0.375rem !important;
+  }
+  .pt-md-half,
+  .py-md-half {
+    padding-top: 0.375rem !important;
+  }
+  .pr-md-half,
+  .px-md-half {
+    padding-right: 0.375rem !important;
+  }
+  .pb-md-half,
+  .py-md-half {
+    padding-bottom: 0.375rem !important;
+  }
+  .pl-md-half,
+  .px-md-half {
+    padding-left: 0.375rem !important;
   }
   .p-md-0 {
     padding: 0 !important;
@@ -8682,6 +8806,25 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
+  .m-lg-half {
+    margin: 0.375rem !important;
+  }
+  .mt-lg-half,
+  .my-lg-half {
+    margin-top: 0.375rem !important;
+  }
+  .mr-lg-half,
+  .mx-lg-half {
+    margin-right: 0.375rem !important;
+  }
+  .mb-lg-half,
+  .my-lg-half {
+    margin-bottom: 0.375rem !important;
+  }
+  .ml-lg-half,
+  .mx-lg-half {
+    margin-left: 0.375rem !important;
+  }
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -8890,6 +9033,25 @@ button.bg-dark:focus {
   .ml-lg-10,
   .mx-lg-10 {
     margin-left: 7.5rem !important;
+  }
+  .p-lg-half {
+    padding: 0.375rem !important;
+  }
+  .pt-lg-half,
+  .py-lg-half {
+    padding-top: 0.375rem !important;
+  }
+  .pr-lg-half,
+  .px-lg-half {
+    padding-right: 0.375rem !important;
+  }
+  .pb-lg-half,
+  .py-lg-half {
+    padding-bottom: 0.375rem !important;
+  }
+  .pl-lg-half,
+  .px-lg-half {
+    padding-left: 0.375rem !important;
   }
   .p-lg-0 {
     padding: 0 !important;
@@ -9122,6 +9284,25 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 1200px) {
+  .m-xl-half {
+    margin: 0.375rem !important;
+  }
+  .mt-xl-half,
+  .my-xl-half {
+    margin-top: 0.375rem !important;
+  }
+  .mr-xl-half,
+  .mx-xl-half {
+    margin-right: 0.375rem !important;
+  }
+  .mb-xl-half,
+  .my-xl-half {
+    margin-bottom: 0.375rem !important;
+  }
+  .ml-xl-half,
+  .mx-xl-half {
+    margin-left: 0.375rem !important;
+  }
   .m-xl-0 {
     margin: 0 !important;
   }
@@ -9330,6 +9511,25 @@ button.bg-dark:focus {
   .ml-xl-10,
   .mx-xl-10 {
     margin-left: 7.5rem !important;
+  }
+  .p-xl-half {
+    padding: 0.375rem !important;
+  }
+  .pt-xl-half,
+  .py-xl-half {
+    padding-top: 0.375rem !important;
+  }
+  .pr-xl-half,
+  .px-xl-half {
+    padding-right: 0.375rem !important;
+  }
+  .pb-xl-half,
+  .py-xl-half {
+    padding-bottom: 0.375rem !important;
+  }
+  .pl-xl-half,
+  .px-xl-half {
+    padding-left: 0.375rem !important;
   }
   .p-xl-0 {
     padding: 0 !important;
@@ -9744,28 +9944,28 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .fs-1 {
-  font-size: 3.052rem !important;
-  line-height: 3.75rem !important;
+  font-size: 1.802rem !important;
+  line-height: 3rem !important;
 }
 
 .fs-2 {
-  font-size: 2.441rem !important;
-  line-height: 3rem !important;
+  font-size: 1.602rem !important;
+  line-height: 2.25rem !important;
 }
 
 .fs-3 {
-  font-size: 1.953rem !important;
-  line-height: 3rem !important;
+  font-size: 1.424rem !important;
+  line-height: 2.25rem !important;
 }
 
 .fs-4 {
-  font-size: 1.563rem !important;
-  line-height: 2.25rem !important;
+  font-size: 1.266rem !important;
+  line-height: 1.5rem !important;
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
-  line-height: 2.25rem !important;
+  font-size: 1.125rem !important;
+  line-height: 1.5rem !important;
 }
 
 .fs-6 {
@@ -9774,151 +9974,151 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .fs-7 {
-  font-size: 0.8rem !important;
+  font-size: 0.889rem !important;
   line-height: 1.5rem !important;
 }
 
 .fs-8 {
-  font-size: 0.64rem !important;
+  font-size: 0.79rem !important;
   line-height: 0.75rem !important;
 }
 
 @media (min-width: 576px) {
   .fs-sm-1 {
-    font-size: 3.052rem !important;
-    line-height: 3.75rem !important;
+    font-size: 1.802rem !important;
+    line-height: 3rem !important;
   }
   .fs-sm-2 {
-    font-size: 2.441rem !important;
-    line-height: 3rem !important;
+    font-size: 1.602rem !important;
+    line-height: 2.25rem !important;
   }
   .fs-sm-3 {
-    font-size: 1.953rem !important;
-    line-height: 3rem !important;
+    font-size: 1.424rem !important;
+    line-height: 2.25rem !important;
   }
   .fs-sm-4 {
-    font-size: 1.563rem !important;
-    line-height: 2.25rem !important;
+    font-size: 1.266rem !important;
+    line-height: 1.5rem !important;
   }
   .fs-sm-5 {
-    font-size: 1.25rem !important;
-    line-height: 2.25rem !important;
+    font-size: 1.125rem !important;
+    line-height: 1.5rem !important;
   }
   .fs-sm-6 {
     font-size: 1rem !important;
     line-height: 1.5rem !important;
   }
   .fs-sm-7 {
-    font-size: 0.8rem !important;
+    font-size: 0.889rem !important;
     line-height: 1.5rem !important;
   }
   .fs-sm-8 {
-    font-size: 0.64rem !important;
+    font-size: 0.79rem !important;
     line-height: 0.75rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .fs-md-1 {
-    font-size: 3.052rem !important;
-    line-height: 3.75rem !important;
+    font-size: 1.802rem !important;
+    line-height: 3rem !important;
   }
   .fs-md-2 {
-    font-size: 2.441rem !important;
-    line-height: 3rem !important;
+    font-size: 1.602rem !important;
+    line-height: 2.25rem !important;
   }
   .fs-md-3 {
-    font-size: 1.953rem !important;
-    line-height: 3rem !important;
+    font-size: 1.424rem !important;
+    line-height: 2.25rem !important;
   }
   .fs-md-4 {
-    font-size: 1.563rem !important;
-    line-height: 2.25rem !important;
+    font-size: 1.266rem !important;
+    line-height: 1.5rem !important;
   }
   .fs-md-5 {
-    font-size: 1.25rem !important;
-    line-height: 2.25rem !important;
+    font-size: 1.125rem !important;
+    line-height: 1.5rem !important;
   }
   .fs-md-6 {
     font-size: 1rem !important;
     line-height: 1.5rem !important;
   }
   .fs-md-7 {
-    font-size: 0.8rem !important;
+    font-size: 0.889rem !important;
     line-height: 1.5rem !important;
   }
   .fs-md-8 {
-    font-size: 0.64rem !important;
+    font-size: 0.79rem !important;
     line-height: 0.75rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .fs-lg-1 {
-    font-size: 3.052rem !important;
-    line-height: 3.75rem !important;
+    font-size: 1.802rem !important;
+    line-height: 3rem !important;
   }
   .fs-lg-2 {
-    font-size: 2.441rem !important;
-    line-height: 3rem !important;
+    font-size: 1.602rem !important;
+    line-height: 2.25rem !important;
   }
   .fs-lg-3 {
-    font-size: 1.953rem !important;
-    line-height: 3rem !important;
+    font-size: 1.424rem !important;
+    line-height: 2.25rem !important;
   }
   .fs-lg-4 {
-    font-size: 1.563rem !important;
-    line-height: 2.25rem !important;
+    font-size: 1.266rem !important;
+    line-height: 1.5rem !important;
   }
   .fs-lg-5 {
-    font-size: 1.25rem !important;
-    line-height: 2.25rem !important;
+    font-size: 1.125rem !important;
+    line-height: 1.5rem !important;
   }
   .fs-lg-6 {
     font-size: 1rem !important;
     line-height: 1.5rem !important;
   }
   .fs-lg-7 {
-    font-size: 0.8rem !important;
+    font-size: 0.889rem !important;
     line-height: 1.5rem !important;
   }
   .fs-lg-8 {
-    font-size: 0.64rem !important;
+    font-size: 0.79rem !important;
     line-height: 0.75rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .fs-xl-1 {
-    font-size: 3.052rem !important;
-    line-height: 3.75rem !important;
+    font-size: 1.802rem !important;
+    line-height: 3rem !important;
   }
   .fs-xl-2 {
-    font-size: 2.441rem !important;
-    line-height: 3rem !important;
+    font-size: 1.602rem !important;
+    line-height: 2.25rem !important;
   }
   .fs-xl-3 {
-    font-size: 1.953rem !important;
-    line-height: 3rem !important;
+    font-size: 1.424rem !important;
+    line-height: 2.25rem !important;
   }
   .fs-xl-4 {
-    font-size: 1.563rem !important;
-    line-height: 2.25rem !important;
+    font-size: 1.266rem !important;
+    line-height: 1.5rem !important;
   }
   .fs-xl-5 {
-    font-size: 1.25rem !important;
-    line-height: 2.25rem !important;
+    font-size: 1.125rem !important;
+    line-height: 1.5rem !important;
   }
   .fs-xl-6 {
     font-size: 1rem !important;
     line-height: 1.5rem !important;
   }
   .fs-xl-7 {
-    font-size: 0.8rem !important;
+    font-size: 0.889rem !important;
     line-height: 1.5rem !important;
   }
   .fs-xl-8 {
-    font-size: 0.64rem !important;
+    font-size: 0.79rem !important;
     line-height: 0.75rem !important;
   }
 }
