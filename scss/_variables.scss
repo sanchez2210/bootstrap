@@ -274,8 +274,9 @@ $display-line-height-scale: (
 
 $font-size-lg:                font-size(5) !default;
 $font-size-sm:                font-size(7) !default;
-$line-height-lg:              line-height(5) !default;
-$line-height-sm:              line-height(7) !default;
+
+$line-height-lg:              $line-height-base * 1.5 !default;
+$line-height-sm:              $line-height-base * .5 !default;
 
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
